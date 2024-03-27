@@ -17,7 +17,7 @@ func Hello(name string) (string, error) {
 }
 
 func main() {
-	message, err := Hello("Raphael")
+	message, err := Hello("Raphael Lima")
 	if err != nil {
 		log.Fatal(err)
 	}
